@@ -36,7 +36,7 @@ public class RegistrationTests extends TestBase {
             $("#hobbiesWrapper").$(byText("Music")).click();
             $("#uploadPicture").uploadFile(new File("src/test/resources/dog.jpeg"));
             $("#currentAddress").setValue("KBR, Nalchik, Lenina, 32, B");
-            $("#state").click();
+            $("#state").scrollIntoView(false).click();
             $("#stateCity-wrapper").$(byText("NCR")).click();
             $("#city").click();
             $("#stateCity-wrapper").$(byText("Delhi")).click();
