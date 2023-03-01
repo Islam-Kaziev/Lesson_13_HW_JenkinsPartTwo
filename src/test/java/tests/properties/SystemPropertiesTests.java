@@ -1,4 +1,4 @@
-package guru.qa.properties;
+package tests.properties;
 
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Tag;
